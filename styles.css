@@ -1,0 +1,66 @@
+body {
+  background-color: lightblue;
+}
+
+.post-title {
+  color: rgb(111, 115, 239);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 36px;
+  font-style: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+  margin-bottom: auto;
+}
+
+a {
+  margin-top: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.post-excerpt {
+  color: darkblue;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 70px;
+  margin-bottom: 15px;
+}
+
+.post-img {
+  width: 1200px;
+  height: 100%;
+  display: block;
+  border-bottom: 3px dotted black;
+  border-right: 3px dotted black;
+}
+
+.blog-post-card {
+  background: white;
+  width: 1200px;
+  max-width: 1200px;
+  text-align: start;
+  border-radius: 25px;
+}
+
+.post-content {
+  padding: 2px;
+}
+
+.read-more:hover {
+  color: red;
+  background-color: white;
+}
+
+.read-more {
+  background-color: rgb(183, 160, 214);
+  display: inline-block;
+  margin: 10px;
+  margin-left: 550px;
+  border-radius: 15px;
+  padding: 10px;
+}
